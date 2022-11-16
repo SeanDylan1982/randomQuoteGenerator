@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Machine | Basic</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="quote-box" id="quote-box">
+    <div class="text" id="text"></div>
+    <div class="author" id="author"></div>
+    <a href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22Limitations%20live%20only%20in%20our%20minds.%20%20But%20if%20we%20use%20our%20imaginations%2C%20our%20possibilities%20become%20limitless.%22%20Jamie%20Paolinetti" class="tweet-quote" id="tweet-quote" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=Jamie%20Paolinetti&content=Limitations%20live%20only%20in%20our%20minds.%20%20But%20if%20we%20use%20our%20imaginations%2C%20our%20possibilities%20become%20limitless.&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button" class="tumblr-quote" id="tumblr-quote" target="_blank"><i class="fab fa-tumblr"></i></a>
+    <button class="new-quote" id="new-quote" onClick="generateQuote();">
+      <i class="fa-solid fa-quote-left"></i>
+      new random quote
+      <i class="fa-solid fa-quote-right"></i>
+    </button>
+  </div>
+  <script src="./app.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
